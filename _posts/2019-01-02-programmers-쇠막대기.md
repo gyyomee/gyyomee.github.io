@@ -29,13 +29,13 @@ int solution(string arrangement) {
 			if (arrangement[i - 1] == &#39;(&#39;) { //레이저일 경우
 				stack.pop_back();
 				for (int j = 0; j &lt; stack.size(); j++) {
-					stack[j]  ;
+					stack[j]++;
 				}
 			}
 			else { //아닐 경우
 				int temp = stack.back();
 				stack.pop_back();
-				answer  = temp;
+				answer += temp;
 			}
 		}
 	}
