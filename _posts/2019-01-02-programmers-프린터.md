@@ -26,7 +26,7 @@ using namespace std;
 int solution(vector&lt;int&gt; priorities, int location) {
 	int answer = 0;
 	list&lt;pair&lt;int, int&gt;&gt; print;
-	for (int i = 0; i &lt; priorities.size(); i  ) {
+	for (int i = 0; i &lt; priorities.size(); i++) {
 		print.push_back(make_pair(priorities[i], i));
 	}
 
@@ -34,7 +34,7 @@ int solution(vector&lt;int&gt; priorities, int location) {
 		int flag = 0;
 
 		list&lt;pair&lt;int, int&gt;&gt;::iterator iter;
-		for (iter = print.begin(); iter != print.end();   iter) {
+		for (iter = print.begin(); iter != print.end(); iter++) {
 			if ((*iter).first &gt; print.front().first) { //큰값이 존재할 경우
 				print.push_back(make_pair(print.front().first, print.front().second));
 				print.pop_front();
