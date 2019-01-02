@@ -45,7 +45,7 @@ int solution(vector&lt;int&gt; priorities, int location) {
 
 		//높은문서가 없으면
 		if (flag == 0) {
-			answer  ;
+			answer++;
 			if (print.front().second == location)	
 				return answer;
 			print.pop_front();
