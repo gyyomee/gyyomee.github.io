@@ -12,36 +12,34 @@ tags:
 
 한번에 코딩 성공해서 당황스러웠던...ㅎ
 
-{% highlight js %}
- 
-#include <string>
-#include <vector>
+<pre><code class="cpp">
+#include &lt;string&gt;
+#include &lt;vector&gt;
 
 using namespace std;
 
 int solution(string arrangement) {
 	int answer = 0;
-	vector<int> stack;
-	for (int i = 0; i < arrangement.length(); i++) {
-		if (arrangement[i] == '(') {
-			stack.push_back(1); //막대추가
+	vector&lt;int&gt; stack;
+	for (int i = 0; i &lt; arrangement.length(); i  ) {
+		if (arrangement[i] == &#39;(&#39;) {
+			stack.push_back(1); //막대 추가
 		}
-		else if (arrangement[i] == ')') {
-			if (arrangement[i - 1] == '(') { //레이저일경우
+		else if (arrangement[i] == &#39;)&#39;) {
+			if (arrangement[i - 1] == &#39;(&#39;) { //레이저일 경우
 				stack.pop_back();
-				for (int j = 0; j < stack.size(); j++) {
-					stack[j]++;
+				for (int j = 0; j &lt; stack.size(); j  ) {
+					stack[j]  ;
 				}
 			}
-			else { //아닐경우
+			else { //아닐 경우
 				int temp = stack.back();
 				stack.pop_back();
-				answer += temp;
+				answer  = temp;
 			}
 		}
 	}
 	return answer;
 }
- 
-{% endhighlight %}
+ </code></pre>
 
