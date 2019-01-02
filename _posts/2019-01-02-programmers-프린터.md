@@ -14,7 +14,7 @@ tags:
 
 코딩 중 pop을 제대로 안시켜줘서 런타임에러가 처음에 몇 번 발생했다...
 
-{% highlight js %}
+<pre><code class="c++">
  
 #include <string>
 #include <vector>
@@ -55,5 +55,5 @@ int solution(vector<int> priorities, int location) {
 	return answer;
 }
  
-{% endhighlight %}
+</code></pre>
 
