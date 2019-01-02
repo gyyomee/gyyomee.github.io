@@ -14,8 +14,7 @@ tags:
 
 코딩 중 pop을 제대로 안시켜줘서 런타임에러가 처음에 몇 번 발생했다...
 
-<pre><code class="c++">
- 
+<pre><code class="cpp">
 #include <string>
 #include <vector>
 #include <list>
