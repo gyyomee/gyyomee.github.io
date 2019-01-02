@@ -35,7 +35,7 @@ int solution(vector&lt;int&gt; priorities, int location) {
 
 		list&lt;pair&lt;int, int&gt;&gt;::iterator iter;
 		for (iter = print.begin(); iter != print.end();   iter) {
-			if ((*iter).first &gt; print.front().first) { //%uD070%uAC12%uC774 %uC874%uC7AC%uD560 %uACBD%uC6B0
+			if ((*iter).first &gt; print.front().first) { //큰값이 존재할 경우
 				print.push_back(make_pair(print.front().first, print.front().second));
 				print.pop_front();
 				flag = 1;
@@ -43,7 +43,7 @@ int solution(vector&lt;int&gt; priorities, int location) {
 			}
 		}
 
-		//%uB192%uC740%uBB38%uC11C%uAC00 %uC5C6%uC73C%uBA74
+		//높은문서가 없으면
 		if (flag == 0) {
 			answer  ;
 			if (print.front().second == location)	
@@ -54,5 +54,5 @@ int solution(vector&lt;int&gt; priorities, int location) {
 
 	return answer;
 }
-</pre></code>
+</code></pre>
 
