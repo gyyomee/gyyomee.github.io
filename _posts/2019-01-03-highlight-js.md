@@ -15,11 +15,10 @@ tags:
 현재 블로그에는 `atom-one-light.css` 스타일이 적용되어있다. 어떻게 표시되는지는 아래를 참고하자!
 
 <pre><code class="cpp">
-#include &amp;lt;iostream&amp;gt;
+#include&lt;iostream&gt;
 using namespace std;
-
-int main(){
-    cout&lt;&lt;&quot;hello world&quot;&lt;&lt;endl;
+int main() {
+	cout &lt;&lt; &quot;hello world&quot; &lt;&lt; endl;
 }
 </code></pre>
 
@@ -39,7 +38,7 @@ int main(){
 
 C++일 경우는 저 클래스 이름 부분에 cpp를 넣어주면 된다.
 
-C++의 저 `< >` 문제를 해결하는 방법은 꺽쇠를 `&lt`, `&quot` 로 친절하게 바꿔주는 <a href="http://www.elliotswan.com/postable/">postable</a> 사이트를 이용하면 편하다.
+C++의 저 `< >` 문제를 해결하는 방법은 꺽쇠를 `&lt`, `&gt` 로 친절하게 바꿔주는 <a href="http://www.elliotswan.com/postable/">postable</a> 사이트를 이용하면 편하다.
 
 단점은 `+`가 삭제되기 때문에 유의해야 한다...
 
