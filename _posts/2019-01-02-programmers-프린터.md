@@ -4,6 +4,7 @@ title: 프로그래머스 - 프린터
 tags:
 - Algorithm
 - C++
+- Programmers
 ---
 
 프로그래머스에서 <a href="https://programmers.co.kr/learn/courses/30/lessons/42587?language=cpp">프린터</a> 문제를 해결했다.
