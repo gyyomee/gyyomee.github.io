@@ -9,7 +9,7 @@ tags:
 
 프로그래머스에서 <a href="https://programmers.co.kr/learn/courses/30/lessons/42577">전화번호 목록</a> 문제를 해결했다.
 
-이전 문제 <a href="">완주하지 못한 선수</a> 문제와 유사해서 비슷한 방식으로 해결할 수 있었다. 
+이전 문제 <a href="https://gyyomee.github.io/2018/12/31/programmers-%EC%99%84%EB%A3%8C%ED%95%98%EC%A7%80%EB%AA%BB%ED%95%9C%EC%84%A0%EC%88%98/">완주하지 못한 선수</a> 문제와 유사해서 비슷한 방식으로 해결할 수 있었다. 
 
 정렬한 후 뒤의 string이 앞 string 보다 짧을 경우 `substr`을 이용하여 접두어를 찾았다.
 
