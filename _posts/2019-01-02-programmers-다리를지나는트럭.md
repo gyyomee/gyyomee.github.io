@@ -4,6 +4,7 @@ title: 프로그래머스 - 다리를 지나는 트럭
 tags:
 - Algorithm
 - C++
+- Programmers
 ---
 
 프로그래머스에서 <a href="https://programmers.co.kr/learn/courses/30/lessons/42583">다리를 지나는 트럭</a> 문제를 해결했다.
