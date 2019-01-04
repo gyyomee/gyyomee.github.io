@@ -12,7 +12,6 @@ title: About
 **음악의 하이라이트 추출 웹 사이트**
 * 2018.3 ~ 2018.11
 * 팀 프로젝트(4인/프론트엔드 개발)
-* Django framework
 * 교내 공모전 은상
 * Django/js/Bootstrap/Python
 * [Github](https://github.com/gyyomee/highlight_web)
