@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-## 김 가영 (Gayoung kim)
+## [김 가영 (Gayoung kim)](https://github.com/gayoungg)
 
 ## Project
 
@@ -75,4 +75,3 @@ title: About
 
 ## Contact
 * rkdud2507@gmail.com
-* [github](https://github.com/gayoungg)
