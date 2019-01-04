@@ -69,13 +69,10 @@ title: About
 
 
 ## Language
-C/C++
-
-Java
-
-Python
+* C/C++
+* Java
+* Python
 
 ## Contact
-rkdud2507@gmail.com
-
-[github](https://github.com/gayoungg)
+* rkdud2507@gmail.com
+* [github](https://github.com/gayoungg)
