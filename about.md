@@ -67,11 +67,11 @@ title: About
 * Android/JSoup
 * [Github](https://github.com/gayoungg/DonggukTask)
 
-
+<br>
 ## Language
 * C/C++
 * Java
 * Python
-
+<br>
 ## Contact
 * rkdud2507@gmail.com
