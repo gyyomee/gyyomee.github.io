@@ -14,7 +14,7 @@ title: About
 * 팀 프로젝트(4인/프론트엔드 개발)
 * Django framework
 * 교내 공모전 은상
-* Django/html/css/js/bootstrap/Python
+* Django/js/Bootstrap/Python
 * [Github](https://github.com/gyyomee/highlight_web)
 
 **현장실습 하계 인턴쉽**
@@ -39,7 +39,7 @@ title: About
 **유아의 관심도 측정 프로그램**
 * 2018.5 ~ 2018.6
 * 팀 프로젝트(4인/MindWave 개발)
-* OpenCV/HCI/Leap Motion/HCI/MindWave
+* OpenCV/HCI/Leap Motion/MindWave/C++
 
 **MultiTrans 웹사이트**
 * 2017.12 ~ 2018.1
