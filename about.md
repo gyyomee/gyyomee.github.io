@@ -4,7 +4,7 @@ title: About
 ---
 
 ## [김 가영 (Gayoung kim)](https://github.com/gayoungg)
-<br><br>
+<br>
 ## Project
 
 `2018`
