@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-## [김 가영 (Gayoung kim)](https://github.com/gayoungg)
+## [김 가영 (Gayoung kim)](https://github.com/gyyomee)
 <br>
 ## Project
 
