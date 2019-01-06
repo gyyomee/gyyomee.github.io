@@ -9,7 +9,7 @@ tags:
 
 SW Expert Academy에서 <a href="https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV13zo1KAAACFAYh&categoryId=AV13zo1KAAACFAYh&categoryType=CODE">1204. 최빈수 구하기</a> 문제를 해결했다.
 
-* `vector`에 `pair`을 이용하여 수가 등장한 횟수와 수를 저장한다. 점수는 총 1000개이므로 반복문을 사용.
+* `vector`에 `pair`을 이용하여 수가 등장한 횟수와 수를 저장한다. 점수는 총 1000개이므로 반복문을 사용하여 입력 받았다.
 * `flag`로 기존에 등장했던 수인지 아닌지를 검사하여, 등장하지 않았던 수이면 `v`에 추가한다.
 * 마지막에 `sort`로 정렬하여 최대값인 마지막 값을 출력하였다.
 
