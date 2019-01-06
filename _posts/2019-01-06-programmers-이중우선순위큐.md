@@ -15,7 +15,7 @@ tags:
 
 <pre><code class="cpp">
 #include &lt;string&gt;
-#include &lt;vector&gt;가
+#include &lt;vector&gt;
 #include &lt;algorithm&gt;
 
 using namespace std;
