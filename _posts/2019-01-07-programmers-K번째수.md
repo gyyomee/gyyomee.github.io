@@ -7,7 +7,7 @@ tags:
 - Programmers
 ---
 
-프로그래머스에서 <a href="https://programmers.co.kr/learn/courses/30/lessons/42748">K번쨰수</a> 문제를 해결했다.
+프로그래머스에서 <a href="https://programmers.co.kr/learn/courses/30/lessons/42748">K번째수</a> 문제를 해결했다.
 
 * 주어진 값을 idx로 잘 활용해서 잘 이용하면 쉽게 구한다. 
 * `temp`벡터에 범위값을 저장해서 정렬한 후 `answer`에 해당값을 넣어주었다.
