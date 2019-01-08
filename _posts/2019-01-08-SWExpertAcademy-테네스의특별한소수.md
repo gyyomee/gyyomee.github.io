@@ -1,0 +1,71 @@
+---
+layout: post
+title: SW Expert Academy - 최빈수 구하기
+tags:
+- Algorithm
+- C++
+- SW Expert Academy
+---
+
+SW Expert Academy에서 <a href="https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWRuoqCKkE0DFAXt&categoryId=AWRuoqCKkE0DFAXt&categoryType=CODE">4698. 테네스의 특별한 소수</a> 문제를 해결했다.
+
+시간초과가 자꾸나서 적절한 자료구조의 사용의 중요성을 다시 깨달아따... 배열로 했으면 속도 더 빨랐을듯. 시간제한이 너무 싫다.
+
+* `primes`에 `prime`함수에서 소수로 판정된 수를 넣는다.
+* `primes` 함수를 탐색해서 범위에 있는 값만 `D`가 포함되어 있는지 판정해서 넣는다.
+* `D`가 포함되어 있는지 확인하는 방법은 10으로 나눈 나머지가 `D`인지 판별한 후 10으로 나누어서 과정 반복.
+
+<pre><code class="cpp">
+#include&lt;iostream&gt;
+#include&lt;vector&gt;
+#include&lt;math.h&gt;
+using namespace std;
+
+vector&lt;int&gt; primes;
+
+bool prime(int a) {
+    if (a == 1) return false;
+    if (a % 2 == 0) {
+        if (a == 2) return true;
+        return false;
+    }
+    for (int i = 3; i <= (int)sqrt(a); ++i) {
+        if (a%i == 0)
+            return false;
+    }
+    return true;
+}
+
+int main(int argc, char** argv)
+{
+    int T;
+    cin >> T;
+    for (int i = 0; i < 1000000; i++) {
+        if (prime(i)) {
+            primes.push_back(i);
+        }
+    }
+    for (int test_case = 1; test_case <= T; ++test_case) {
+        int D, A, B;
+        cin >> D >> A >> B;
+        int answer = 0;
+
+        for (int i = 0; i < primes.size(); i++) {
+            if (A > primes[i])
+                continue;
+            if (B < primes[i])
+                break;
+            int num = primes[i];
+            while (num != 0) {
+                if (num % 10 == D) {
+                    answer++;
+                    break;
+                }
+                num /= 10;
+            }
+        }
+        cout << "#" << test_case << " " << answer << "\n";
+    }
+    return 0;
+}
+ </code></pre>

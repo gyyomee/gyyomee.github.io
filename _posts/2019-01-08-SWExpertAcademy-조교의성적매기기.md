@@ -1,0 +1,74 @@
+---
+layout: post
+title: SW Expert Academy - 조교의 성적 매기기
+tags:
+- Algorithm
+- C++
+- SW Expert Academy
+---
+
+SW Expert Academy에서 <a href="https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PwGK6AcIDFAUq&categoryId=AV5PwGK6AcIDFAUq&categoryType=CODE">1983. 조교의 성적 매기기</a> 문제를 해결했다.
+
+* 성적을 계산해서 vector에 넣은뒤 `sort`로 정렬 했다.
+* 각 성적의 학생수는 `1/N`명이므로 `k`번째 학생의 성적은 `i/1/N`의 값을 `switch`문을 이용하여 출력하였다.
+* 성적 배열로 넣어서 처리할 걸 그랬다.
+
+<pre><code class="cpp">
+#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;algorithm&gt;
+using namespace std;
+
+int main() {
+    int T;
+    cin >> T;
+    for (int test_case = 0; test_case < T; test_case++) {
+        int N, k;
+        cin >> N >> k;
+        vector&lt;pair&lt;double, int&gt;&gt; score;
+        for (int num = 0; num < N; num++) {
+            int t1, t2, t3;
+            cin >> t1 >> t2 >> t3;
+            score.push_back(make_pair((double)(t1*0.35 + t2 * 0.45 + t3 * 0.2), num + 1));
+        }
+        sort(score.begin(), score.end());
+        for (int i = 0; i < score.size(); i++) {
+            if (score[i].second == k) {
+                int grade = N / 10;
+                switch (i / grade) {
+                case 9:
+                    cout << "#" << test_case + 1 << " " << "A+" << "\n";
+                    break;
+                case 8:
+                    cout << "#" << test_case + 1 << " " << "A0" << "\n";
+                    break;
+                case 7:
+                    cout << "#" << test_case + 1 << " " << "A-" << "\n";
+                    break;
+                case 6:
+                    cout << "#" << test_case + 1 << " " << "B+" << "\n";
+                    break;
+                case 5:
+                    cout << "#" << test_case + 1 << " " << "B0" << "\n";
+                    break;
+                case 4:
+                    cout << "#" << test_case + 1 << " " << "B-" << "\n";
+                    break;
+                case 3:
+                    cout << "#" << test_case + 1 << " " << "C+" << "\n";
+                    break;
+                case 2:
+                    cout << "#" << test_case + 1 << " " << "C0" << "\n";
+                    break;
+                case 1:
+                    cout << "#" << test_case + 1 << " " << "C-" << "\n";
+                    break;
+                case 0:
+                    cout << "#" << test_case + 1 << " " << "D0" << "\n";
+                    break;
+                }
+            }
+        }
+    }
+}
+ </code></pre>
