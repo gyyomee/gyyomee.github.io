@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SW Expert Academy - 최빈수 구하기
+title: SW Expert Academy - 테네스의 특별한 소수
 tags:
 - Algorithm
 - C++
