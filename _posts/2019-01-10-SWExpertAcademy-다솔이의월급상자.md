@@ -7,7 +7,7 @@ tags:
 - SW Expert Academy
 ---
 
-SW Expert Academy에서 <a href="https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWS2dSgKA8MDFAVT&categoryId=AWS2dSgKA8MDFAVT&categoryType=CODE">6692. 다솔이의 월급 상자</a> 문제를 해결했다.
+SW Expert Academy에서 <a href="https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWdXofhKFkADFAWn&categoryId=AWdXofhKFkADFAWn&categoryType=CODE">6692. 다솔이의 월급 상자</a> 문제를 해결했다.
 
 구하는건 단순 계산이었는데 소수점을 6자리까지 표시해야 하였다. <a href="http://pmoncode.tistory.com/20">C++의 소숫점 자리표시</a>방법을 알아보았다.
 
