@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SW Expert Academy - 최빈수 구하기
+title: SW Expert Academy - 1204.최빈수 구하기
 tags:
 - Algorithm
 - C++
