@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SW Expert Academy - 조교의 성적 매기기
+title: [SW Expert Academy] 1983.조교의 성적 매기기
 tags:
 - Algorithm
 - C++

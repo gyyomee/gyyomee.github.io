@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SW Expert Academy - 성공적인 공연 기획
+title: [SW Expert Academy] 4789.성공적인 공연 기획
 tags:
 - Algorithm
 - C++
