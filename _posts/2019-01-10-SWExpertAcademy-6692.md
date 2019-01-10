@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [SW Expert Academy] 6692.다솔이의 월급상자
+title: SW Expert Academy - 6692.다솔이의 월급상자
 tags:
 - Algorithm
 - C++

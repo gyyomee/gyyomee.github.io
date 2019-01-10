@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [SW Expert Academy] 5603.건초더미
+title: SW Expert Academy - 5603.건초더미
 tags:
 - Algorithm
 - C++
