@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 구글 애널리틱스
+title: 구글애널리틱스 - 측정기준, 측정항목
 tags:
 - Google Analytics
 - 측정기준
