@@ -1,14 +1,11 @@
 ---
-*layout: post
+layout: post
 title: Java - indexOf, lastIndexOf, substring
 tags:
 - Java
 - indexOf
 - lastIndexOf
 - substring
-
-
-
 ---
 
 
