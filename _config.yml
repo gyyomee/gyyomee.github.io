@@ -6,9 +6,9 @@ permalink:           pretty
 gems: [jekyll-paginate]
 
 # Setup
-title:               김가영
+title:               김 가영
 tagline:             'Kim Ga Young'
-description:         '안녕하세요 :)<br>rkdud2507@gmail.com'
+description:         '안녕하세요 :)
 url:                 http://gyyomee.github.io/
 baseurl:             ''
 paginate:            5
@@ -17,7 +17,7 @@ paginate:            5
 author:
   name:              Ga Young Kim
   url:               https://gyyomee.github.io/
-  email:             rkdud2507@gmail.com
+  email:             
 
 github:
   repo:              https://github.com/gyyomee
