@@ -8,7 +8,7 @@ gems: [jekyll-paginate]
 # Setup
 title:               김 가영
 tagline:             'Kim Ga Young'
-description:         '안녕하세요 :)
+description:         '안녕하세요 :)'
 url:                 http://gyyomee.github.io/
 baseurl:             ''
 paginate:            5
