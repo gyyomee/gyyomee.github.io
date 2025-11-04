@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
   {% include head.html %}
 
   <body class="theme-base-08">
-
     {% include sidebar.html %}
 
     <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
@@ -20,27 +18,37 @@
       </div>
 
       <div class="container content">
-        {{ content }}
+        {{ content }} {% if page.layout == "post" %}
+        <hr />
+        {% include comments.html %} {% endif %}
       </div>
     </div>
 
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
     <script>
-      (function(document) {
-        var toggle = document.querySelector('.sidebar-toggle');
-        var sidebar = document.querySelector('#sidebar');
-        var checkbox = document.querySelector('#sidebar-checkbox');
+      (function (document) {
+        var toggle = document.querySelector(".sidebar-toggle");
+        var sidebar = document.querySelector("#sidebar");
+        var checkbox = document.querySelector("#sidebar-checkbox");
 
-        document.addEventListener('click', function(e) {
-          var target = e.target;
+        document.addEventListener(
+          "click",
+          function (e) {
+            var target = e.target;
 
-          if(!checkbox.checked ||
-             sidebar.contains(target) ||
-             (target === checkbox || target === toggle)) return;
+            if (
+              !checkbox.checked ||
+              sidebar.contains(target) ||
+              target === checkbox ||
+              target === toggle
+            )
+              return;
 
-          checkbox.checked = false;
-        }, false);
+            checkbox.checked = false;
+          },
+          false
+        );
       })(document);
     </script>
   </body>

@@ -1,26 +1,26 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
+permalink: pretty
 
 gems: [jekyll-paginate]
 
 # Setup
-title:               김 가영
-tagline:             'Kim Ga Young'
-description:         '안녕하세요 :)'
-url:                 http://gyyomee.github.io/
-baseurl:             ''
-paginate:            5
+title: 김 가영
+tagline: "Kim Ga Young"
+description: "안녕하세요 :)"
+url: http://gyyomee.github.io/
+baseurl: ""
+paginate: 5
 
 # About/contact
 author:
-  name:              Ga Young Kim
-  url:               https://gyyomee.github.io/
-  email:             
+  name: Ga Young Kim
+  url: https://gyyomee.github.io/
+  email: gayoungkim349@gmail.com
 
 github:
-  repo:              https://github.com/gyyomee
-  
+  repo: https://github.com/gyyomee
+
 # Custom vars
-version:             1.0.0
+version: 1.0.0
